@@ -9,15 +9,27 @@
     color: blue;
 } */
 
-#span{
+
+/* span{
   padding: 0PX 5PX 0PX 5PX;
   border-top: 2px solid black ;
   border-bottom: 4px solid gray;
 }
 
-.paragraph{
+p{
   border-width: 10px;
   border-style: ridge;
   border-color: lightgreen;
   margin: 5px;
+  font-family:
+} */
+
+Body{
+    background-color: beige;
+    font-family: 'Crimson Text', serif;
+}
+h1{
+    font-family: Roboto, sans-serif;
+    color: red;
+    text-align: center;
 }
