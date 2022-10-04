@@ -1,4 +1,4 @@
-.headings {
+/* .headings {
     color: red;
 }
 .Paris_paragraph{
@@ -7,4 +7,17 @@
 #London_Heading{
     background-color: gray;
     color: blue;
+} */
+
+#span{
+  padding: 0PX 5PX 0PX 5PX;
+  border-top: 2px solid black ;
+  border-bottom: 4px solid gray;
+}
+
+.paragraph{
+  border-width: 10px;
+  border-style: ridge;
+  border-color: lightgreen;
+  margin: 5px;
 }
