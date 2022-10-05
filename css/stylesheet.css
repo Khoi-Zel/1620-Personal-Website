@@ -1,28 +1,20 @@
 body{
-    background-color:rgb(221, 221, 193);
+    background-color:lightblue;
 }
-h1{
-    color:rgb(27, 51, 70);
+.new_font {
+    font-family: "Montserrat", sans-serif;
+  }
+.new_font1{
+    font-family: "Montserrat", sans-serif;
     text-align: center;
-}
-h2{
-    color:rgb(27, 51, 70);
-}
-h3{
-    color:rgb(41,41,41);
-}
-p{
+  }
+/* p{
     color:#671963;
 }
 ol{
     color:rgb(105, 13, 119);
-}
+} */
 
-h4{
-    font-family: Roboto, sans-serif;
-    background-color: lightblue;
-    text-align: center;
-}
 .link{
     background-color: lightblue;
     text-align: center; 
