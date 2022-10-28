@@ -1,5 +1,5 @@
 body{
-    background-color:lightblue;
+    background-color: #edddd0;;
 }
     
 .Table1{
@@ -8,6 +8,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    background-color: #a6cad4;
 }
 
 h1{
@@ -16,7 +17,9 @@ h1{
     font-size: 50px;
     justify-content: center;
     align-items: center;
+    color: #db504a;
 }
+
 ul{   
     display: flex;
     font-size: 20px;
@@ -27,6 +30,10 @@ ul{
 
 li{
     margin: 10px;
+}
+
+li a:link{
+    color: #db504a;
 }
 
 article{
@@ -52,8 +59,15 @@ article{
 }
 
 #Table4{
-    grid-column: 3/4;
+    grid-column: 1/5;
     grid-row: 4/5;
+    background-color: #a6cad4;
+}
+
+footer p{
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 img{
