@@ -10,10 +10,76 @@ h1{
     text-align: center; 
     list-style-position: inside;
 } */
+
+
 body{
     background-color: #edddd0;;
 }
 
+
+
+@media screen and (max-width:600px)
+{
+    .Table1{
+        font-family: "Montserrat", sans-serif;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: #334259;
+    }
+    
+    h1{
+        display: flex;
+        flex-basis: 100%;
+        font-size: 50px;
+        justify-content: center;
+        align-items: center;
+        color: #db504a;
+    }
+    
+    ul{   
+        display: flex;
+        font-size: 20px;
+        align-items: center;
+        justify-content: center;
+        list-style-type: none;
+    }
+    
+    li{
+        margin: 10px;
+    }
+    
+    li a:link{
+        color: #db504a;
+    }
+    
+    .Section{
+        display: flex;
+        flex-wrap:wrap;
+        flex-direction: column;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .Header{
+        flex-basis:100%;
+        order: 0; 
+    }
+
+    .Introduction{
+        flex-basis:100%;
+        order: 2;
+    }
+
+    .Aside{
+        flex-basis:100%;
+        order:1;
+    }
+}
+
+
+@media screen and (min-width: 601px){
 .Table1{
     font-family: "Montserrat", sans-serif;
     display: flex;
@@ -70,3 +136,5 @@ li a:link{
     grid-column: 1/2;
     grid-row: 3/4;
 }
+}
+
