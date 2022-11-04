@@ -47,3 +47,26 @@ li{
 li a:link{
     color: #db504a;
 }
+
+.Section{
+    display: grid;
+    font-family: "Montserrat", sans-serif;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 100px 50px ;
+    border-bottom: 2px solid black;
+}
+
+.Header{
+    grid-column: 1/2;
+    grid-row:1/2;
+}
+
+.Introduction{
+    grid-column: 2/4;
+    grid-row: 2/2;
+}
+
+.Aside{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
