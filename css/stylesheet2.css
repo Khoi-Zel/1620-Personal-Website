@@ -92,6 +92,7 @@ body{
 }
 
 @media screen and (min-width: 601px){
+<<<<<<< HEAD
     .Table1{
         font-family: "Montserrat", sans-serif;
         display: flex;
@@ -149,6 +150,66 @@ body{
         grid-column: 1/2;
         grid-row: 3/4;
     }
+=======
+.Table1{
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #334259;
+}
+
+h1{
+    display: flex;
+    flex-basis: 100%;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    color: #db504a;
+}
+
+ul{   
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+li{
+    margin: 10px;
+}
+
+li a:link{
+    color: #db504a;
+}
+
+.Section{
+    display: grid;
+    font-family: "Montserrat", sans-serif;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 100px 50px ;
+    border-bottom: 2px solid black;
+}
+
+.Header{
+    grid-column: 1/2;
+    grid-row:1/2;
+    font-size: 20px;
+}
+
+.Introduction{
+    grid-column: 2/4;
+    grid-row: 2/2;
+}
+
+.Aside{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+}
+>>>>>>> personal_website
 
     #Table4{
         display:flex;
